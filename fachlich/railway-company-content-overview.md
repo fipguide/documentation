@@ -11,7 +11,11 @@ Maximales Beispiel für Informationen über ein Eisenbahnunternehmen anhand des 
 **Reservierung möglich:** ja  
 **Reservierungspflicht:** nein (Ausnahmen für einzelne Züge. Diese sind auf der Website als Reservierungspflichtig gekennzeichnet)  
 **Kosten für Reservierung:** 2,00€ - 5,20€  
-**Reservierungskauf:** Vor Ort am Schalter (kostenlos), Online-Willybahn (3,00€), Online-DB (5,20€)
+**Reservierungskauf:**
+
+- Vor Ort am Schalter (kostenlos) -> Link zum Abschnitt kaufen
+- Online-Willybahn (3,00€) -> Link zum Abschnitt Kaufen
+- Online-DB (5,20€) -> Link zum Abschnitt Kaufen
 
 <!---
 Hier können auch noch weitere Zugkategorien hinzugefügt werden. In Polen zum Beispiel der EIP mit eigener Reservierungsrichtline.
@@ -46,8 +50,15 @@ Ticket und Reservierungen können über folgende Kanäle erworben werden:
 
 ### Online
 
-**Inländische Verbindungen:** willybahn.de
-**Grenzüberschreitende Verbindungen Richtung Deutschland:** bahn.de
+Anbieter auflisten und was und wie man da kaufen kann
+
+### Im Zug
+
+Bei welchen Zügen auch im Zug gekauft werden kann
+
+### Vor Ort
+
+Schalter und Automaten
 
 ## Grenzpunkte
 
@@ -69,3 +80,9 @@ FIP-Freifahrten sind auch für Fahrten bei dern Lennartbahn gültig.
 ### DB-ÖBB Eurocity München – Innsbruck – Bolzano – Venezia
 
 Besondere Hinsweise zu dieser Route
+
+<!---
+Wie wird die Altersspanne unmissverständlich ausgedrückt?
+
+Besonderheiten und besondere Routen sollten auch mehreren Eisenbahnunternehmen zugeordnet werden können.
+-->

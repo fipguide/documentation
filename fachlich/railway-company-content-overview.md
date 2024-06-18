@@ -1,6 +1,17 @@
 Maximales Beispiel für Informationen über ein Eisenbahnunternehmen anhand des Beispiels der Willybahn
 
+Eine Seite mit allgemeinen FIP Infos zu Freifahrten und co
+
+Übersichtszeite pro Land mit schönen Strecken und nochmal allgemeinen Tipps zum Land (Bahn)
+Bei welchen gilt das nicht im Land
+
 # Willybahn
+
+Allgemeine Informationen und Text (z.B. welche Eisenbahn ist das, gibt es andere im Land)
+
+## Besonderheiten
+
+Kurzer Überblick über Regeln im Land die besonders sind und persönliche Tipps. Mehr Details gibt es anschließend unten.
 
 ## Zugkategorien und Reservierungen
 
@@ -8,7 +19,7 @@ Maximales Beispiel für Informationen über ein Eisenbahnunternehmen anhand des 
 
 **Zuggattungen:** InterCityExpress (ICE), InterCity (IC), EuroCity (EC)  
 **Beschreibung:** Schnelle Züge durch das ganze Land  
-**Reservierung möglich:** ja  
+**Reservierung möglich:** ja
 **Reservierungspflicht:** nein (Ausnahmen für einzelne Züge. Diese sind auf der Website als Reservierungspflichtig gekennzeichnet)  
 **Kosten für Reservierung:** 2,00€ - 5,20€  
 **Reservierungskauf:**
@@ -22,6 +33,41 @@ Hier können auch noch weitere Zugkategorien hinzugefügt werden. In Polen zum B
 
 Wie gehen wir mit unterschiedlichen Preisen für Reservierungen um? Z.B. Online 1zl und vor Ort kostenlos. Vielleicht jeweils eine Verlinkung zum Buchungskanal.
 -->
+
+## Ticketkauf
+
+Ticket und Reservierungen können über folgende Kanäle erworben werden:
+
+### Online
+
+Anbieter auflisten und was und wie man da kaufen kann
+
+(der Anbieter selbst, andere nur bei Vorteilen bei Buchung über diese)
+
+### Im Zug
+
+Bei welchen Zügen auch im Zug gekauft werden kann
+
+### Vor Ort
+
+Schalter und Automaten
+
+### Verkauf in anderen Ländern
+
+Welche Bahn Unternehmen verkaufen die Tickets noch
+
+## Anreise und Grenzpunkte
+
+Wie reist man am besten ein, auch mit persönlichen Tips
+
+Grenzpunkte dann nur zum Ausklappen
+
+| Nachbarbahn | Grenzpunkte                      |
+| ----------- | -------------------------------- |
+| Lennartbahn | Porz (Gr), Brieselang            |
+| Tonibahn    | Frankfurt (Gr), Frankfurt (Oder) |
+| Michelbahn  | Steinbach, Cuxhaven (Gr)         |
+| Robertbahn  | Frankfurt (Gr), Köln             |
 
 ## Ermäßigte Fahrkarten
 
@@ -44,31 +90,6 @@ Niederlande: Kostenlos bis 3 Jahre (aber nur ohne eigenen Sitzplatz), für Kinde
 Slowakei: 2 Seiten PDF mit Spezialregelungen zu Reservierungen und Co
 -->
 
-## Ticketkauf
-
-Ticket und Reservierungen können über folgende Kanäle erworben werden:
-
-### Online
-
-Anbieter auflisten und was und wie man da kaufen kann
-
-### Im Zug
-
-Bei welchen Zügen auch im Zug gekauft werden kann
-
-### Vor Ort
-
-Schalter und Automaten
-
-## Grenzpunkte
-
-| Nachbarbahn | Grenzpunkte                      |
-| ----------- | -------------------------------- |
-| Lennartbahn | Porz (Gr), Brieselang            |
-| Tonibahn    | Frankfurt (Gr), Frankfurt (Oder) |
-| Michelbahn  | Steinbach, Cuxhaven (Gr)         |
-| Robertbahn  | Frankfurt (Gr), Köln             |
-
 ## Tarifliche Besonderheiten
 
 ### Gültigkeit bei der Lennartbahn
@@ -82,7 +103,7 @@ FIP-Freifahrten sind auch für Fahrten bei dern Lennartbahn gültig.
 Besondere Hinsweise zu dieser Route
 
 <!---
-Wie wird die Altersspanne unmissverständlich ausgedrückt?
+Zum Beispiel auch Nachtzüge
 
 Besonderheiten und besondere Routen sollten auch mehreren Eisenbahnunternehmen zugeordnet werden können.
 -->

@@ -1,5 +1,12 @@
 ```mermaid
 erDiagram
+    GENERAL {
+        string description "overall usefull FIP information"
+        string fipCoupon "overall FIP coupon information"
+        string fipGlobalprice "overall FIP globalprice information"
+    }
+
+    %% Region zur Zuordung im Menü und Übersichtsseiten
     REGION ||--|{ COUNTRY : contains
     REGION {
         string name "the name of the region"
@@ -8,68 +15,44 @@ erDiagram
     COUNTRY {
         string name "the name of the country"
         boolean insideEu "is the coutry is part of the EU"
+        string generalFipGuides "Some general information for FIP related content in the county"
+        string generalTravelGuides "Some general information for travel content in the county"
     }
 
-    "NON FIP COMPANY" }|--|| COUNTRY : contains
+    "RECOMMENDED ROUTES" }|--|{ COUNTRY : "go trough"
+    "RECOMMENDED ROUTES" {
+        string name "the name of the route"
+        string description "the description of the route"
+    }
+
+    "NON FIP COMPANY" }|--|{ COUNTRY : contains
     "NON FIP COMPANY" {
         string name "the name of the company"
         string abbreviation "the short name of the company"
+        string additionalInformation "some further information about the non FIP company"
+
     }
 
-    COMPANY }|--|| COUNTRY : contains
+    COMPANY }|--|{ COUNTRY : contains
     COMPANY {
         string name "the name of the company"
         string abbreviation "the short name of the company"
+        string generalInformation "information in general about the railway company"
+        string summaryOfParticularities "A short summary of uncommen rules for the railway as an overview"
+        string trainCategories "information about the train categories and reservation fees"
+        string ticketPurchase "informations about ways to buy a ticket or reservation"
+        string arrivals "to to get into the county (when using this railway)"
+        string borders "borders to other companys/countries"
+        string reducedTickets "information about reduced tickets for children"
+        string specialTariffRules "further special tariff and rate related information"
     }
-    COMPANY ||--o| "CHILDREN FARE" : offers
-    "CHILDREN FARE" {
-        int upToYearsFreeTravel "until which year children travel for free"
-        int upToYearsReducedTravel "until which year children travel for a reduced price"
-        int reduction "how large is the price reduction for children"
-    }
-    COMPANY }|--|{ BORDER : definesBorder
-    BORDER {
-        string listOfTransitPoints "Transit points up to which coupons are valid"
-    }
-    COMPANY }|--|{ "SPECIAL CONDITION" : applies
-    "SPECIAL CONDITION" {
-        string headline "headline of the name of the special condition"
-        string description "description of the special condition"
-    }
-    COMPANY ||--|{ "TRAIN CATEGORY" : contains
-    "TRAIN CATEGORY" {
-        string name "the name of the train category e.g. regional or long distance"
-        string listOfTrainTypes "for example InterCityExpress (ICE) or RailJet (RJ)"
-        boolean reservationRequired "is a reservation required"
-        boolean reservationPossible "is a reservation possible"
-        string reservationPrice "the price for a reservation"
-    }
-    COMPANY }|--|{ "SPECIAL ROUTE" : contains
+
+    COMPANY }|--|{ "SPECIAL ROUTE" : "goes through"
     "SPECIAL ROUTE" {
-        string name "the name of the train category e.g. regional or long distance"
-        string description "description of the special condition"
+        string name "the name of the route"
+        string description "the description of the route"
     }
-    COMPANY ||--|| BOOKING : offers
-    BOOKING {
-        string description "general booking description"
-    }
-    BOOKING ||--|| "ONLINE PURCHASE" : offers
-    "ONLINE PURCHASE" {
-        string description "description of the online purchase"
-        string websites "websites"
-    }
-    BOOKING ||--|| "ONTRAIN PURCHASE" : offers
-    "ONTRAIN PURCHASE" {
-        string description "description of the ontrain purchase"
-    }
-    BOOKING ||--|| "LOCAL PURCHASE" : offers
-    "LOCAL PURCHASE" {
-        string description "description of the local purchase"
-    }
-    BOOKING ||--|| "TELEPHONE PURCHASE" : offers
-    "TELEPHONE PURCHASE" {
-        string description "description of the local purchase"
-        int telephoneNumber "telephone number for booking"
-    }
+
+
 
 ```
